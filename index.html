@@ -1,10 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/b0201ea9e5.js" crossorigin="anonymous"></script>
     <title>Saas company</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div id="topSection">
+        <div class="topSectionContent">
+          <header>
+            <div class="logo">
+              <img id="frontLogo" src="./assets/logos/logo-front.svg" alt="Front logo">
+            </div>
+            <nav>
+              <i class="fa-solid fa-bars"></i>
+              <ul id="navList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Hire us</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+              <a href="#"><button class="navButton">Buy Now</button></a>
+            </nav>
+          </header>
+          <div class="heroSection">
+            <div id="leftPart">
+              <div id="title">
+                <p class="leftPartHeading">Empowering teams with the freedom</p>
+                <p class="leftPartParagraph">Own the unlimited power of the web development</p>
+              </div>
+              <div id="actions">
+                <button class="leftPartButton">
+                  <i id="play-circle" class="fa-solid fa-play"></i>
+                  Play Video
+                </button>
+                <a href="#" class="actionLearnMore">Learn more</a>
+              </div>
+            </div>
+            <div id="rightPart">
+              <div class="asana-logo">
+                <img class="asana" src="./assets/logos/asana.png" alt="">
+              </div>
+              <div class="calendar-logo">
+                <img class="calendar" src="./assets/logos/calendar.png" alt="">
+              </div>
+              <div class="weave-logo">
+                <img class="weave" src="./assets/logos/weave.png" alt="">
+              </div>
+              <div class="paypal-logo">
+                <img class="paypal" src="./assets/logos/paypal.jpg" alt="">
+              </div>
+              <div class="attlasian-logo">
+                <img class="attlasian" src="./assets/logos/atlassian.png" alt="">
+              </div>
+              <div class="googleAds-logo">
+                <img class="googleAds" src="./assets/logos/google-ads.png" alt="">
+              </div>
+              <div class="google-logo">
+                <img class="google" src="./assets/logos/google.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="whyFrontSection">
+        <div class="whyFrontTitle">
+          <p class="whyFront">Why Front?</p>
+          <p class="whyFrontParagraph">Front is an incredibly beautiful, fully responsive , and mobile-first projects on the web - it is the starting point for creative sites</p>
+        </div>
+        <div class="mobileBullet">
+          <div class="bulletsAndBars">
+            <div class="bulletCircle"><i class="fa-solid fa-circle"></i></div>
+            <div class="leftWing"><hr class="bar"></div>
+            <div class="bulletCircle"><i class="fa-solid fa-circle"></i></div>
+            <div class="leftWing"><hr class="bar"></div>
+            <div class="bulletCircle"><i class="fa-solid fa-circle"></i></div>
+            <div class="leftWing"><hr class="bar"></div>
+            <div class="bulletCircle"><i class="fa-solid fa-circle"></i></div>
+          </div>
+          <ul class="bulletTitles">
+            <li>Basic elements</li>
+            <li>Components</li>
+            <li>Combined components</li>
+            <li>Page layouts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="pricingSection">
+        <div class="pricingTitle">
+          <p class="pricing">Pricing</p>
+          <p class="pay">No additional costs. Pay for what you use</p>
+        </div>
+        <div class="plansFeaturesList">
+          <div class="pricingTable">
+            <div class="plan">
+              <div class="planHeader">
+                <span class="planPrice">59</span><span class="planPeriod"> / mo</span>
+                <div class="planDivider"><hr class="barTwo"></div>
+                <p class="startFront">Start your Front business now. 100% guaranteed money back. No questions asked.</p>
+              </div>
+              <div class="planFooter">
+                <div class="footerActions">
+                  <button class="leftPartButton">
+                    <i id="play-circle" class="fa-solid fa-play"></i>
+                    Play Video
+                  </button>
+                  <p class="noccreq">No credit card required.</p>
+                </div>
+              </div>
+            </div>
+            <div class="planFeatures">
+              <div class="rowOne">
+                <div class="planFeatureItem">
+                  <img class="components" src="./assets/images/components.svg" alt="Components">
+                  <div class="plansFeatureTitle">Hundreds of components</div>
+                  <div class="plansFeatureDescription">Achieve maximum productivity with minimum effort with Front and create robust Limitless products.</div>
+                </div>
+                <div class="planFeatureItem">
+                  <img class="diamonds" src="./assets/images/images.svg" alt="Diamonds">
+                  <div class="plansFeatureTitle">Images included</div>
+                  <div class="plansFeatureDescription">Images included. We made custom license for all of our premium images in the front.</div>
+                </div>
+              </div>
+              <div class="rowTwo">
+                <div class="planFeatureItem">
+                  <img src="./assets/images/cancel.svg" alt="Cancel" class="cancel">
+                  <div class="plansFeatureTitle">Cancel anytime <button class="sketch">sketch</button></div>
+                  <div class="plansFeatureDescription">If its not for you, just cancel, no hidden costs or fees</div>
+                </div>
+                <div class="planFeatureItem">
+                  <img src="./assets/images/moneyback.svg" alt="Money back" class="money">
+                  <div class="plansFeatureTitle">Money back</div>
+                  <div class="plansFeatureDescription">!00% guaranteed money back. No questions asked.</div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hireUsSection">
+        <div class="hireUsLeftPart">
+          <div class="hireUsTop">
+            <div class="hireUsTitle">
+              <p class="hireUs">
+                Hire Us
+              </p>
+              <p class="goal">
+                Whatever your goal - we will get you there
+              </p>
+              <hr class="barWhite">
+            </div>
+            <p class="phrase"><i>“ I love front! I love the ease of use, I love the fact that I have total creative freedom...”</i></p>
+          </div>
+          <div class="hireUsBottom">
+            <div class="person">Charlotte Moore</div>
+            <div class="personTitle">Head of Commercials, Slack</div>
+            <img src="./assets/images/man_one.jpg" alt="Charlotte Moore" class="person-img">
+          </div>
+        </div>
+        <div class="hireUsRightPart">
+          <form action="#">
+            <p class="caption">Fill out the form and we'll be in touch as soon as possible</p>
+            <formgroup class="fullName">
+              <input type="text" id="firstName" placeholder="First name">
+              <input type="text" id="lastName" placeholder="Last name">
+            </formgroup>
+            <formgroup>
+              <input type="email" id="email" placeholder="Email">
+            </formgroup>
+            <formgroup class="row">
+              <select name="budget" id="budget" value="Budget">
+                <i class="fa-solid fa-chevron-down"></i>
+                <option for="budget" value="Budget"><span class="option">Budget</span></option>
+              </select>
+              <select name="country" id="country" value="Country">
+                <i class="fa-solid fa-chevron-down"></i>
+                <option for="country" value="Country" ><span class="option">Country</span></option>
+              </select>
+              </formgroup>
+              <formgroup>
+                <textarea name="tellUsMore" id="tellUsMore" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
+              </formgroup>
+              <formgroup class="optional">
+                <input type="checkbox" id="marketing" name="Marketing">
+                <label for="marketing"><p class="marketing">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</p></label>
+              </formgroup>
+                <div class="privacy">
+                  <a href="#" class="viewPrivacyPolicy">View privacy policy</a>
+                  <a href="#" class="viewPrivacyPolicy second">View privacy policy</a>
+                </div>
+              </formgroup>
+              <button class="submit">Submit Form</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer">
+        <div class="footergroupone">
+          <div class="col1">
+            <img class="footerLogo" src="./assets/logos/logo-front.svg" alt="Front logo">
+            <div class="address"><i class="fa-solid fa-location-arrow"></i><a href="#" class="address-location"><span class="address-location">153 Williamson Plaza, Maggieberg</span></a></div>
+            <div class="phone"><i class="fa-solid fa-phone"></i><span class="number">+1 (062) 109-9222</span></div>
+          </div>
+        </div>
+        <div class="footergrouptwo">
+          <div class="col2">
+            <p class="heading">Company</p>
+            <a href="#" class="footera">About</a>
+            <div class="career"><a href="#" class="footera">Career</a><button class="hiring">We're hiring</button></div>
+            <a href="#" class="footera">Blog</a>
+            <a href="#" class="footera">Customers</a>
+            <a href="#" class="footera">Hire us</a>
+          </div>
+          <div class="col3">
+            <p class="heading">Features</p>
+            <a href="#" class="footera">Press</a>
+            <a href="#" class="footera">Release notes</a>
+            <a href="#" class="footera">Integrations</a>
+            <a href="#" class="footera">Pricing</a>
+          </div>
+        </div>
+        <div class="footergroupthree">
+          <div class="col4">
+            <p class="heading">Documentation</p>
+            <a href="#" class="footera">Support</a>
+            <a href="#" class="footera">Docs</a>
+            <a href="#" class="footera">Status</a>
+            <a href="#" class="footera">API Reference</a>
+            <a href="#" class="footera">Tech Requirements</a>
+          </div>
+          <div class="col5">
+            <p class="heading">Resources</p>
+            <div class="help"><i class="fa-solid fa-circle-info"></i><a href="#" class="footera">Help</a></div>
+            <div class="account"><i class="fa-solid fa-circle-user"></i><a href="#" class="footera">Your Account</a></div>
+          </div>
+        </div>  
+      </div> 
+    </div>
+    
+    
+    
+    
+    
+  </body>
 </html>
