@@ -1007,7 +1007,7 @@
     .col1, .col2, .col3, .col4, .col5 {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
     }
 
     .col1 {
@@ -1083,7 +1083,8 @@
         font-weight: 860;
         line-height: 100%;
         letter-spacing: 0%;
-        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
         padding: 0;
     }
 
