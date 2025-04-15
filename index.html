@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
     </style>
@@ -98,55 +100,51 @@
       </div>
     </div>
     <div class="container">
-      <div class="pricingSection">
-        <div class="pricingTitle">
-          <p class="pricing">Pricing</p>
-          <p class="pay">No additional costs. Pay for what you use</p>
-        </div>
-        <div class="plansFeaturesList">
-          <div class="pricingTable">
-            <div class="plan">
-              <div class="planHeader">
-                <span class="planPrice">59</span><span class="planPeriod"> / mo</span>
-                <div class="planDivider"><hr class="barTwo"></div>
-                <p class="startFront">Start your Front business now. 100% guaranteed money back. No questions asked.</p>
-              </div>
-              <div class="planFooter">
-                <div class="footerActions">
-                  <button class="leftPartButton">
-                    <i id="play-circle" class="fa-solid fa-play"></i>
-                    Play Video
-                  </button>
-                  <p class="noccreq">No credit card required.</p>
-                </div>
-              </div>
-            </div>
-            <div class="planFeatures">
-              <div class="rowOne">
-                <div class="planFeatureItem">
-                  <img class="components" src="./assets/images/components.svg" alt="Components">
-                  <div class="plansFeatureTitle">Hundreds of components</div>
-                  <div class="plansFeatureDescription">Achieve maximum productivity with minimum effort with Front and create robust Limitless products.</div>
-                </div>
-                <div class="planFeatureItem">
-                  <img class="diamonds" src="./assets/images/images.svg" alt="Diamonds">
-                  <div class="plansFeatureTitle">Images included</div>
-                  <div class="plansFeatureDescription">Images included. We made custom license for all of our premium images in the front.</div>
-                </div>
-              </div>
-              <div class="rowTwo">
-                <div class="planFeatureItem">
-                  <img src="./assets/images/cancel.svg" alt="Cancel" class="cancel">
-                  <div class="plansFeatureTitle">Cancel anytime <button class="sketch">sketch</button></div>
-                  <div class="plansFeatureDescription">If its not for you, just cancel, no hidden costs or fees</div>
-                </div>
-                <div class="planFeatureItem">
-                  <img src="./assets/images/moneyback.svg" alt="Money back" class="money">
-                  <div class="plansFeatureTitle">Money back</div>
-                  <div class="plansFeatureDescription">!00% guaranteed money back. No questions asked.</div>
-                </div>
-              </div>
+      <div class="pricingTitleGroup">
+        <p class="pricingTitle">Pricing</p>
+        <p class="pricingDescription">No additional costs. Pay for what you use</p>
+      </div>
+      <div class="pricingGroup">
+        <div class="plan">
+          <div class="planHeader">
+            <div class="planPeriod"><span class="price">59</span><span class="month"> / mo</span></div>
+            <hr class="planBar">
+            <p class="planHeaderDescription">Start your Front business now. 100% guaranteed money back. No questions asked.</p>
           </div>
+          <div class="planFooter">
+            <button class="leftPartButton">
+              <i id="play-circle" class="fa-solid fa-play"></i>
+              Play Video
+            </button>
+            <p class="noccreq">
+              No credit card required.
+            </p>
+          </div>
+        </div>
+        <div class="featureList">
+          <div class="featureGroupOne">
+            <div class="itemOne">
+              <img src="./assets/images/components.svg" alt="Components" class="components">
+              <div class="itemOneTitle">Hundreds of components</div>
+              <p class="itemOneDescription">Achieve maximum productivity with minimum effort with Front and create robust Limitless products.</p>
+            </div>
+            <div class="itemTwo">
+              <img src="./assets/images/cancel.svg" alt="Cancel" class="cancel">
+              <div class="cancelHeading"><div class="itemTwoTitle">Cancel anytime</div><button class="sketch">Sketch</button></div>
+              <p class="itemTwoDescription">Images included We made custom license for all our premium images in the front</p>
+            </div>
+          </div>
+          <div class="featureGroupTwo">
+            <div class="itemThree">
+              <img src="./assets/images/images.svg" alt="" class="diamonds">
+              <div class="itemThreeTitle">Images included</div>
+              <p class="itemThreeDescription">Images included We made custom license for all our premium images in the front</p>
+            </div>
+            <div class="itemFour">
+              <img src="./assets/images/moneyback.svg" alt="Money back" class="money">
+              <div class="itemFourTitle">Money back</div>
+              <p class="itemFourDescription">100% guarateed money back. No questions asked.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -218,44 +216,41 @@
             <div class="phone"><i class="fa-solid fa-phone"></i><span class="number">+1 (062) 109-9222</span></div>
           </div>
         </div>
-        <div class="footergrouptwo">
-          <div class="col2">
-            <p class="heading">Company</p>
-            <a href="#" class="footera">About</a>
-            <div class="career"><a href="#" class="footera">Career</a><button class="hiring">We're hiring</button></div>
-            <a href="#" class="footera">Blog</a>
-            <a href="#" class="footera">Customers</a>
-            <a href="#" class="footera">Hire us</a>
+        <div class="columns">
+          <div class="footergrouptwo">
+            <div class="col2">
+              <p class="heading">Company</p>
+              <a href="#" class="footera">About</a>
+              <div class="career"><a href="#" class="footera">Career</a><button class="hiring">We're hiring</button></div>
+              <a href="#" class="footera">Blog</a>
+              <a href="#" class="footera">Customers</a>
+              <a href="#" class="footera">Hire us</a>
+            </div>
+            <div class="col3">
+              <p class="heading">Features</p>
+              <a href="#" class="footera">Press</a>
+              <a href="#" class="footera">Release notes</a>
+              <a href="#" class="footera">Integrations</a>
+              <a href="#" class="footera">Pricing</a>
+            </div>
           </div>
-          <div class="col3">
-            <p class="heading">Features</p>
-            <a href="#" class="footera">Press</a>
-            <a href="#" class="footera">Release notes</a>
-            <a href="#" class="footera">Integrations</a>
-            <a href="#" class="footera">Pricing</a>
-          </div>
+          <div class="footergroupthree">
+            <div class="col4">
+              <p class="heading">Documentation</p>
+              <a href="#" class="footera">Support</a>
+              <a href="#" class="footera">Docs</a>
+              <a href="#" class="footera">Status</a>
+              <a href="#" class="footera">API Reference</a>
+              <a href="#" class="footera">Tech Requirements</a>
+            </div>
+            <div class="col5">
+              <p class="heading">Resources</p>
+              <div class="help"><i class="fa-solid fa-circle-info"></i><a href="#" class="footera">Help</a></div>
+              <div class="account"><i class="fa-solid fa-circle-user"></i><a href="#" class="footera">Your Account</a></div>
+            </div>
+          </div>  
         </div>
-        <div class="footergroupthree">
-          <div class="col4">
-            <p class="heading">Documentation</p>
-            <a href="#" class="footera">Support</a>
-            <a href="#" class="footera">Docs</a>
-            <a href="#" class="footera">Status</a>
-            <a href="#" class="footera">API Reference</a>
-            <a href="#" class="footera">Tech Requirements</a>
-          </div>
-          <div class="col5">
-            <p class="heading">Resources</p>
-            <div class="help"><i class="fa-solid fa-circle-info"></i><a href="#" class="footera">Help</a></div>
-            <div class="account"><i class="fa-solid fa-circle-user"></i><a href="#" class="footera">Your Account</a></div>
-          </div>
-        </div>  
       </div> 
     </div>
-    
-    
-    
-    
-    
   </body>
 </html>

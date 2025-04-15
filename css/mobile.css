@@ -1,0 +1,163 @@
+@media (max-width: 47.9375rem) {
+    .fa-bars {
+    display: flex;
+   }
+   
+   #navList, .navButton {
+    display: none;
+   }
+
+   #topSection {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .topSectionContent {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .heroSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+   }
+
+
+   #leftPart {
+    display: flex;
+    flex-direction: column;
+    height: 14.6875rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    width: 100%;
+    text-align: center;
+    gap: 3.125rem;
+   }
+
+   #rightPart {
+    display: flex;
+    width: 100vw;
+    height: 19.3125rem;
+    align-items: center;
+    width: 100%;
+   }
+
+   #title p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+   }
+
+   #actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1.875rem auto;
+    gap: 2.5rem;
+   }
+
+   .asana, .calendar, .weave, .paypal, .attlasian, .googleAds, .google{
+    width: 3rem;
+    height: 3rem;
+   }
+
+   .asana-logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* left: unset; */
+    top: unset;
+    right: 7rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+}
+
+.calendar-logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+}
+
+.weave-logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+}
+
+.paypal-logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+}
+
+.attlasian-logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+}
+
+.googleAds-logo {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+}
+
+.google-logo {
+    display: flex;
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0.625rem;
+    box-shadow: 0 0.1875rem 0.8125rem 0 #00000040;
+    background: #FFFFFF;
+
+}
+}
