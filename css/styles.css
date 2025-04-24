@@ -1,6 +1,5 @@
 body {
     width: 100vw;
-    height: 100vh;
     color: #000000;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -98,8 +97,8 @@ nav {
 .heroSection {
     display: flex;
     flex-direction: row;
+    background-image: url('../assets/bg/background-top.svg');
     width: 100vw;
-    background-image: url(../assets/bg/background-top.svg);
     padding-top: 2.5rem;
     padding-right: 1.875rem;
     padding-left: 1.875rem;

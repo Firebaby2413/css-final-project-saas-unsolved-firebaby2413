@@ -1,192 +1,192 @@
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
     @keyframes move-calendar {
         0% {
-            top: 310px;
-            left: 364px;
+            top: 19.375rem;
+            left: 22.75rem;
         }
         10% {
-            top: 320px;
-            left: 357px;
+            top: 20rem;
+            left: 22.3125rem;
         }
         20% {
-            top: 330px;
-            left: 351.2px;
+            top: 20.625rem;
+            left: 21.95rem;
         }
         30% {
-            top: 340px;
-            left: 344.8px;
+            top: 21.25rem;
+            left: 21.55rem;
         }
         40% {
-            top: 350px;
-            left: 338.4px;
+            top: 21.875rem;
+            left: 21.15rem;
         }
         50% {
-            top: 360px;
-            left: 332px;
+            top: 22.5rem;
+            left: 20.75rem;
         }
         60% {
-            top: 370px;
-            left: 325.6px;
+            top: 23.125rem;
+            left: 20.35rem;
         }
         70% {
-            top: 380px;
-            left: 319.2px;
+            top: 23.75rem;
+            left: 19.95rem;
         }
         80% {
-            top: 390px;
-            left: 312.8px;
+            top: 24.375rem;
+            left: 19.55rem;
         }
         90% {
-            top: 400px;
-            left: 306.4px;
+            top: 25rem;
+            left: 19.15rem;
         }
         100% {
-            top: 400px;
-            left: 300px;
+            top: 25rem;
+            left: 18.75rem;
         }
     }
     
     @keyframes move-weave {
         0% {
-            top: 172px;
-            left: 262px;
+            top: 10.75rem;
+            left: 16.375rem;
         }
         50% {
-            top: 172px;
-            left: 140px;
+            top: 10.75rem;
+            left: 8.75rem;
         }
         100% {
-            top: 172px;
-            left: 100px;
+            top: 10.75rem;
+            left: 6.25rem;
     
         }
     }
     
     @keyframes move-paypal {
         0% {
-            top: 172px;
-            left: 44px;
+            top: 10.75rem;
+            left: 2.75rem;
         }
         50% {
-            top: 172px;
-            left: -120px;
+            top: 10.75rem;
+            left: -7.5rem;
         }
         100% {
-            top: 172px;
-            left: -180px;
+            top: 10.75rem;
+            left: -11.25rem;
         }
     }
     
     @keyframes move-attlasian {
         0% {
-            top: 10px;
-            left: 175px;
+            top: 0.625rem;
+            left: 10.9375rem;
         }
         10% {
-            top: 10px;
-            left: 142.5px;
+            top: 0.625rem;
+            left: 8.90625rem;
         }
         20% {
-            top: 10px;
-            left: 110px;
+            top: 0.625rem;
+            left: 6.875rem;
         }
         30% {
-            top: 10px;
-            left: 77.5px;
+            top: 0.625rem;
+            left: 4.84375rem;
     
         }
         40% {
-            top: 10px;
-            left: 45px;
+            top: 0.625rem;
+            left: 2.8125rem;
     
         }
         50% {
-            top: 10px;
-            left: 12.5px;
+            top: 0.625rem;
+            left: 0.78125rem;
         }
         60% {
-            top: 10px;
-            left: -20px;
+            top: 0.625rem;
+            left: -1.25rem;
         }
         70% {
-            top: 10px;
-            left: -52.5px;
+            top: 0.625rem;
+            left: -3.28125rem;
         }
         80% {
-            top: 10px;
-            left: -85px;
+            top: 0.625rem;
+            left: -5.3125rem;
         }
         90% {
-            top: 10px;
-            left: -117.5px;
+            top: 0.625rem;
+            left: -7.34375rem;
     
         }
         100% {
-            top: 10px;
-            left: -150px;
+            top: 0.625rem;
+            left: -9.375rem;
         }
     }
     
     @keyframes move-googleAds {
         0% {
-            top: 290px;
-            left: 155px;
+            top: 18.125rem;
+            left: 9.6875rem;
         }
         10% {
-            top: 295px;
-            left: 115px;
+            top: 18.4375rem;
+            left: 7.1875rem;
         }
         20% {
-            top: 300px;
-            left: 75px;
+            top: 18.75rem;
+            left: 4.6875rem;
         }
         30% {
-            top: 305px;
-            left: 35px;
+            top: 19.0625rem;
+            left: 2.1875rem;
         }
         40% {
-            top: 310px;
-            left: -5px;
+            top: 19.375rem;
+            left: -0.3125rem;
         }
         50% {
-            top: 315px;
-            left: -50px;
+            top: 19.6875rem;
+            left: -3.125rem;
         }
         60% {
-            top: 320px;
-            left: -100px;
+            top: 20rem;
+            left: -6.25rem;
         }
         70% {
-            top: 325px;
-            left: -150px;
+            top: 20.3125rem;
+            left: -9.375rem;
         }
         80% {
-            top: 330px;
-            left: -200px;
+            top: 20.625rem;
+            left: -12.5rem;
         }
         90% {
-            top: 340px;
-            left: -255px; 
+            top: 21.25rem;
+            left: -15.9375rem; 
         }
         100% {
-            top: 350px;
-            left: -320px;
+            top: 21.875rem;
+            left: -20rem;
         }
     
     }
     
     @keyframes move-google {
         0% {
-            top: 10px;
-            left: 64px;
+            top: 0.625rem;
+            left: 4rem;
         }
         50% {
-            top: 10px;
-            left: -210px;
+            top: 0.625rem;
+            left: -13.125rem;
         }
         100% {
-            top: 10px;
-            left: -420px;
+            top: 0.625rem;
+            left: -26.25rem;
         }
     }
 }
