@@ -1,16 +1,13 @@
 @media (max-width: 47.9375rem) {
-    .container {
-        width: 100vw;
-    }
-
     header {
-        width: 100vw;
         display: flex;
         height: 5.375rem;
+        width: 100%;
     }
 
     #topSection {
-        width: 100vw;
+        display: flex;
+        flex-direction: column;
         height: 44.0625rem;
     }
 
@@ -18,33 +15,41 @@
         display: none;
     }
 
-    .heroSection {
+    nav .fa-bars {
         display: flex;
-        width: 100vw;
+    }
+
+    .heroSection {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         height: 22.125rem;
         margin: 0 auto;
         text-align: center;
         gap: 0;
         z-index: 1;
-        padding-top: 2.5rem;
-        padding-right: 1.875rem;
-        padding-left: 1.875rem;
         margin-left: 0.625rem;
     }
 
     #leftPart {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
         height: 14.6875rem;
-        width: 100vw;
         z-index: 2;
+        margin: 0 auto;
+        padding: 0;
     }
 
     #title {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        align-items: center;
+        text-align: center;
+        width: 100%;
         margin: 0 auto;
+        padding: 0;
     }
 
     .leftPartHeading {
@@ -52,10 +57,17 @@
         text-align: center;
     }
 
+    #actions {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 1.5rem;
+    }
+
     #rightPart {
         display: flex;
-        width: 100vw;
         height: 19.3125rem;
+        width: 100%;
     }
 
     .asana, .attlasian, .calendar, .weave, .googleAds, .google, .paypal {
@@ -137,7 +149,9 @@
     .whyFrontSection {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        align-items: center;
+        text-align: center;
+        width: 100%;
         height: 30.5rem;
         margin: 0 auto;
     }
@@ -145,16 +159,18 @@
     .whyFrontTitle {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
+        align-items: center;
+        text-align: center;
         margin: 0 auto;
         height: 30.5rem;
-        text-align: center;
         gap: 1.25rem;
     }
 
     .whyFront {
         text-align: center;
         margin: 0 auto;
+        text-align: center;
     }
 
     .whyFrontParagraph {
@@ -165,9 +181,9 @@
     .mobileBullet {
         display: flex;
         flex-direction: row;
-        width: 100vw;
-        align-items: flex-start;
-        justify-content: flex-start;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
         gap: 0;
     }
 
@@ -176,14 +192,15 @@
         flex-direction: column;
         align-items: flex-start;
         width: 25%;
-        gap: 0.9375rem;
-        margin-right: 3.125rem;
+        gap: 1.9375rem;
+        margin-right: -2.875rem;
+        margin-left: 2rem;
     }
 
     .bulletTitles {
         display: flex;
         flex-direction: column;
-        gap: 5.375rem;
+        gap: 7.375rem;
         align-items: flex-start;
         font-size: 1.1rem;
     }
@@ -195,17 +212,18 @@
     .pricingTitleGroup {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        margin: 1.875rem auto;
+        align-items: center;
+        width: 100%;
+        margin: 11.875rem auto;
+        margin-bottom: 3.125rem;
         text-align: center;
     }
 
     .pricingGroup {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto;
-        margin-left: 0.9375rem;
         align-items: flex-start;
         justify-content: center;
         gap: 17.8125rem;
@@ -213,7 +231,7 @@
 
     .plan {
         display: flex;
-        width: 107%;
+        width: 90%;
         margin: 0 auto;
         align-items: center;
         justify-content: center;
@@ -237,158 +255,152 @@
     .featureList {
         display: flex;
         flex-direction: column;
+        width: 100%;
         margin-bottom: 15.625rem;
+    }
+
+    .itemOne, .itemTwo, .itemThree, .itemFour {
+        margin: 0 auto;
+        width: 90%;
     }
 
     .hireUsSection {
         display: flex;
         flex-direction: column;
-        height: 75rem;
+        padding: 0;
+        width: 100%;
         margin: 0 auto;
-        width: 100vw;
-        padding-right: 1.875rem;
-        padding-left: 1.875rem;
-        margin-left: 0.625rem;
-        align-items: center;
         gap: 0;
     }
 
     .hireUsLeftPart {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        justify-content: flex-start;
+        width: 100%;
+        height: 25.5rem;
         margin: 0 auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
         padding: 0;
-    }
-    
-
-    .hireUsTop {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        margin: 0 auto;
-        text-align: center;
-        padding: 0;
+        gap: 0;
     }
 
     .hireUsTitle {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        align-items: center;
-        margin: 0 auto;
+        width: 100%;
         text-align: center;
+        padding: 0;
+        align-items: center;
     }
+    
 
     .barWhite {
-        width: 23.875rem;
+        margin: 0 auto;
+    }
+
+    .phrase {
+        text-align: center;
+        margin: 1.25rem auto;
     }
 
     .hireUsBottom {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto;
         align-items: center;
         text-align: center;
         padding: 0;
-        gap: 0;
     }
 
     .person {
-        font-size: 1.5rem;
-        padding-bottom: 0;
+        text-align: center;
     }
 
-    .person-img {
-        margin-top: 1.25rem;
+    .personTitle {
+        text-align: center;
     }
 
     .hireUsRightPart {
         display: flex;
         flex-direction: column;
-        margin-bottom: 6.25rem;
+        height: 52.625rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
     }
 
     form {
         display: flex;
         flex-direction: column;
-        height: 51.25rem;
-        width: 90%;
-        margin: 1.25rem auto;
-        padding-right: 0.625rem;
+        width: 80%;
+        height: 46rem;
+        padding: 0;
+        margin: 20px auto;
+        padding: 15px;
     }
 
     .caption {
-        padding-bottom: 0;
+        margin: 0 auto;
+        text-align: justify;
     }
 
     .fullName {
         display: flex;
         flex-direction: column;
-        gap: 0.3125rem;
-        margin-top: 0;
-        margin-bottom: 0;
+        gap: 10px;
     }
 
     .formEmail {
-        margin-top: 0.3125rem;
-        margin-bottom: 0.3125rem;
+        padding: 0;
     }
 
     #firstName, #lastName, #email {
-        height: 1.75rem;
-        width: 20rem;
-        padding-left: 1rem;
+        width: 95%;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
         padding-right: 0;
     }
 
     .row {
         display: flex;
         flex-direction: column;
+        padding: 0;
+        gap: 10px;
     }
 
     #budget, #country {
-        width: 96.5%;
-        margin-top: 0;
-        margin-bottom: 0;
+        width: 99%;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
     }
 
     textarea {
-        height:  9.375rem;
-        width: 95.5%;
-        margin-bottom: 0;
-        margin-top: 0;
-        padding: 0;
+        width: 88.5%;
     }
 
-    .optional {
-        margin: 0;
-        padding: 0;
+    .privacy .second {
+        display: none;
     }
-
-    .submit {
-        margin-bottom: 1.25rem;
-    }
+    
 
     .footer {
         display: flex;
         flex-direction: column;
-        width: 100vw;
         margin: 0 auto;
         align-items: center;
-        padding-right: 1.875rem;
-        padding-left: 1.875rem;
+        /* padding-right: 1.875rem;
+        padding-left: 1.875rem; */
         margin-left: 0.625rem;
     }
 
     .footergroupone, .footergrouptwo, .footergroupthree {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto;
         align-items: center;
         padding: 0;
@@ -398,7 +410,6 @@
     .columns {
         display: flex;
         flex-direction: column;
-        width: 100vw;
         margin: 0 auto;
         align-items: center;
         gap: 0;
@@ -407,12 +418,9 @@
     .col1, .col2, .col3, .col4, .col5 {
         display: flex;
         flex-direction: column;
-        width: 100vw;
         margin: 1.25rem auto;
         align-items: center;
         padding: 0;
         gap: 1.25rem;
     }
-
-    
 }

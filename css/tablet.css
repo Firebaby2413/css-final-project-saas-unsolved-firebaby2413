@@ -1,301 +1,298 @@
 @media (max-width: 63.9375rem) {
-    body {
-        width: 100vw;
-        padding-right: 1.875rem;
-        padding-left: 1.875rem;
-        margin-left: 0.625rem;
-    }
-
     #topSection {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        height: 46.875rem;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        align-items: center;
     }
 
     .topSectionContent {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        margin: 0;
+        width: 100%;
+        height: 49rem;
         padding: 0;
+        margin: 0 auto;
     }
 
     header {
-        width: 100vw;
-        padding-right: 1.875rem;
-        padding-left: 1.875rem;
-        margin-left: 0.625rem;
+        width: 100%;
+        padding: 0;
     }
 
-    .heroSection {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 41.5rem;
+    .logo {
+        margin-left: 1.875rem;
     }
 
-    .navButton, #navList {
+    #navList, .navButton {
         display: none;
     }
 
-    .fa-bars {
+    nav .fa-bars {
         display: flex;
     }
 
     .heroSection {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        height: 26.5rem;
+        width: 100%;
+        height: 27.25rem;
+        padding: 0;
+        margin: 0 auto;
+        align-items: center;
         gap: 0;
     }
 
     #leftPart {
         display: flex;
         flex-direction: column;
-        height: 50%;
-        flex-wrap: nowrap;
+        margin: 1.875rem auto;
+        width: 100%;
+        height: 12.375rem;
         align-items: center;
-        justify-content: center;
         text-align: center;
-        width: 100vw;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .leftPartHeading {
-      margin: 0 auto;
-      font-size: 2.75rem;
-      text-align: center;
     }
 
     #title {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
-    }
-
-    .leftPartHeading {
-        font-weight: 500;
     }
 
     #actions {
         display: flex;
         flex-direction: row;
-        width: 100vw;
+        width: 100%;
+        margin: 0 auto;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
     }
 
     #rightPart {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 50%;
-        margin: 0 auto;
+        width: 100%;
         padding: 0;
-        align-items: center;
-        justify-content: center;
+        margin: 0;
     }
 
     .asana-logo {
-        left: unset;
-        right: -9.5rem;
-        top: 19.75rem;
-    }
-
-    .weave-logo {
-        left: 1.375rem;;
-        top: 16.75rem;
-    }
-
-    .paypal-logo {
-        top: 10.75rem;
-        left: -14.25rem;
-    }
-
-    .attlasian-logo {
-        top: -1.375rem;
-        left: -3.0625rem;
+        top: 9rem;
+        left: 42.75rem;
     }
 
     .calendar-logo {
-        top: 28.375rem;
-        left: 8.75rem;
+        top: 22.375rem;
+        left: 36.75rem;
+    }
+
+    .weave-logo {
+        top: 14.75rem;
+        left: 23.375rem;
+    }
+
+    .paypal-logo {
+        top: 14.75rem;
+        left: -2.25rem;
+    }
+
+    .attlasian-logo {
+        top: 7.625rem;
+        left: 6.9375rem;
     }
 
     .googleAds-logo {
-        display: flex;
-        width: 3.75rem;
-        height: 3.75rem;
-        top: 7.125rem;
-        left: -7.3125rem;
-        padding: 0.5rem;
-        justify-content: center;
-        align-items: center;
+        top: 22.125rem;
+        left: -3.3125rem;
+        padding: .5rem;
     }
 
     .google-logo {
+        top: 7.625rem;
+        left: -17rem;
+        padding: .5rem;
+    }
+
+    .whyFrontSection {
         display: flex;
-        width: 3.75rem;
-        height: 3.75rem;
-        left: -14rem;
-        top: -10.375rem;
-        padding: 0.5rem;
-        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
         align-items: center;
+        gap: 60px;
+    }
+
+    .whyFrontTitle {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 0;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .whyFront {
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .whyFrontaPragraph {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+    .mobileBullet {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .bulletTitles {
+        gap: 8.875rem;
+    }
+
+    .bulletTitles li:nth-child(2) {
+        margin-left: 2.0625rem;
+    }
+
+    .pricingTitleGroup {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .prictingTitle p {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .pricingDescription p {
+        text-align: center;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .pricingGroup {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
         margin: 0 auto;
-    }
-
-    .pricingTitleGroup {
-        display: flex;
-        flex-direction: column;
-        margin: 3rem auto;
-
-    }
-
-    .pricingTitle, .pricingDescription {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .leftWing .bar {
-        width: 7.3125rem;
-    }
-
-    .bulletTitles {
-        gap: 4.4375rem;
+        padding: 0;
+        gap: 10rem;
     }
 
     .plan {
         display: flex;
-        width: 90%;
-        justify-content: center;
-        align-items: center;
         margin: 0 auto;
-        box-shadow: none;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .planHeader {
-        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
         align-items: center;
-        justify-content: center;
     }
 
     .planBar {
-        display: flex;
         color: #8D8D8D;
-        width: 37.5rem;
+        width: 90%;
+    }
+
+    .planFooter {
+        width: 100%;
+        text-align: center;
+        align-items: center;
     }
 
     .featureList {
         display: flex;
-        width: 100vw;
+        flex-direction: row;
+        width: 100%;
         margin: 0 auto;
         align-items: center;
-        justify-content: center;
-        gap: 1.875rem;
+        padding: 0;
+        gap: 0;
+    }
+
+    .featureGroupOne, .featureGroupTwo {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
     }
 
     .itemOne, .itemTwo, .itemThree, .itemFour {
-        width: 21rem;
-        height: 12.271rem;
-    }
-
-    .itemOneDescription, .itemTwoDescription, .itemThreeDescription, .itemFourDescription {
-        width: 90%;
+        width: 74%;
     }
 
     .hireUsSection {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        height: 61.5rem;
-        width: 100vw;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        height: 70rem;
+        gap: 0;
     }
 
     .hireUsLeftPart {
         display: flex;
         flex-direction: row;
-        margin: 0;
-        width: 100vw;
-        gap: 6rem;
+        width: 80%;
+        height: 20rem;
+        margin: 0 auto;
+        gap: 5rem;
+        padding: 0;
+    }
+
+    .hireUsTop, .hireUsBottom {
+        width: 50%;
     }
 
     .hireUs {
         font-size: 1.625rem;
-        font-weight: 700;
+    }
+
+    .hireUsBottom {
+        margin-top: 2rem;
+        padding: 0;
     }
 
     .hireUsRightPart {
         display: flex;
-        flex-direction: column;
-        width: 100vw;
+        width: 100%;
+        margin: 0 auto;
         align-items: center;
     }
 
-    form {
-        height: 39rem;
-        margin: 1.25rem auto;
-    }
-
     .footer {
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        gap: 0;
+        padding: 0;
+        width: 100%;
     }
-
-    .col1 {
-        margin-left: 2.25rem;
-    }
-
-    .columns {
-        display: flex;
-        flex-direction: column;
-        gap: 2.75rem;
-    }
-
 
     .footergroupone {
-        width: 60%;
-        margin-right: 1rem;
-        gap: 7.75rem;
-    }
-
-    .footergrouptwo {
-        display: flex;
-        flex-direction: row;
-        width: 75%;
-        gap: 7.75rem;
+        width: 34%;
     }
 
     .footergroupthree {
-        display: flex;
-        flex-direction: row;
-        width: 75%;
-        gap: 5.75rem;
-    }
-
-    .col1, .col2, .col3, .col4, .col5 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 2.75rem;
+        gap: 3.75rem;
     }
 
 }
