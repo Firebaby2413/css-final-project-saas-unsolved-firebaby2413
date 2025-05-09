@@ -258,7 +258,7 @@
         width: 80%;
         height: 20rem;
         margin: 0 auto;
-        gap: 5rem;
+        gap: 11rem;
         padding: 0;
     }
 
@@ -268,6 +268,10 @@
 
     .hireUs {
         font-size: 1.625rem;
+    }
+
+    .barWhite {
+        width: 25.875rem;
     }
 
     .hireUsBottom {
@@ -282,17 +286,49 @@
         align-items: center;
     }
 
+    .privacy {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        margin-left: 7.5rem;
+    }
+
+    .privacy .second  {
+        display: none;
+    }
+
     .footer {
         padding: 0;
         width: 100%;
+        margin-bottom: 3rem;
     }
 
     .footergroupone {
         width: 34%;
     }
 
+    .footergrouptwo, .footergroupthree {
+        width: 66%;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        width: 66%;
+        gap: 3rem;
+
+    }
+
+    .footergrouptwo {
+        margin-left: 0.875rem;
+        gap: 4.5rem;
+    }
+
     .footergroupthree {
-        gap: 3.75rem;
+        margin-left: 3.875rem;
+        gap: 6.75rem;
     }
 
 }
