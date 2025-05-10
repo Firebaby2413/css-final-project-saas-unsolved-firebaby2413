@@ -1,426 +1,358 @@
-@media (max-width: 47.9375rem) {
-    header {
-        display: flex;
-        height: 5.375rem;
-        width: 100%;
-    }
+@media (max-width: 47.9375rem) and (max-width: 767px) {
+   #topSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+   }
 
-    #topSection {
-        display: flex;
-        flex-direction: column;
-        height: 44.0625rem;
-    }
+   .topSectionContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+   }
 
-    .navButton, #navList {
-        display: none;
-    }
+   header {
+    width: 100%;
+   }
 
-    nav .fa-bars {
-        display: flex;
-    }
+   .heroSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
+    padding: 0;
+   }
 
-    .heroSection {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 22.125rem;
-        margin: 0 auto;
-        text-align: center;
-        gap: 0;
-        z-index: 1;
-        margin-left: 0.625rem;
-    }
+   #leftPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   }
 
-    #leftPart {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: 14.6875rem;
-        z-index: 2;
-        margin: 0 auto;
-        padding: 0;
-    }
+   #title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   }
 
-    #title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
+   #title .leftPartHeading {
+    font-size: 2.5rem;
+    text-align: center;
+   }
 
-    .leftPartHeading {
-        font-size: 1.75rem;
-        text-align: center;
-    }
+   #title .leftPartParagraph {
+    text-align: center;
+    font-size: 1.5rem;
+   }
 
-    #actions {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: 1.5rem;
-    }
+   #rightPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   }
 
-    #rightPart {
-        display: flex;
-        height: 19.3125rem;
-        width: 100%;
-    }
+   .asana-logo {
+    left: 19.75rem;
+    top: 10rem;
+   }
 
-    .asana, .attlasian, .calendar, .weave, .googleAds, .google, .paypal {
-        width: 1.875rem;
-        height: 1.875rem;
-        padding: .5rem;
-    }
+   .calendar-logo {
+    top: 20.375rem;
+    left: 18.75rem;
+   }
 
-    .asana-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        right: -6.5rem;
-        top: 6.75rem;
-        align-items: center;
-        justify-content: center;
-    }
+   .weave-logo {
+    top: 5.75rem;
+    left: 15.375rem;
+   }
 
-    .attlasian-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        top: -9.375rem;
-        left: -1.0625rem;
-        align-items: center;
-        justify-content: center;
-    }
+   .paypal-logo {
+    top: 0.75rem;
+    left: 0.75rem;
+   }
 
-    .calendar-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        top: 14.375rem;
-        left: 5.75rem;
-        align-items: center;
-        justify-content: center;
-    }
+   .attlasian-logo {
+    top: -10.375rem;
+    left: 8.9375rem;
+   }
 
-    .weave-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        left: 2.375rem;
-        top: 3.75rem;
-        align-items: center;
-        justify-content: center;
-    }
+   .googleAds-logo {
+    top: 0.125rem;
+    left: 7.6875rem;
+   }
 
-    .googleAds-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        top: -1.875rem;
-        left: -3.3125rem;
-        align-items: center;
-        justify-content: center
-    }
+   .google-logo {
+    top: -19.375rem;
+    left: 1rem;
+   }
 
-    .paypal-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        top: -1.25rem;
-        left: -9.25rem;
-        align-items: center;
-        justify-content: center;
-    }
+   .whyFrontSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 42.75rem;
+    margin: 0 auto;
+    padding: 0;
+    gap: 30px;
+   }
 
-    .google-logo {
-        display: flex;
-        width: 1.875rem;
-        height: 1.875rem;
-        left: -10rem;
-        top: -16.375rem;
-        align-items: center;
-        justify-content: center;
-    }
+   .mobileBullet {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30rem;
+    align-items: flex-start;
+    gap: 3rem;
+   }
 
-    .whyFrontSection {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        height: 30.5rem;
-        margin: 0 auto;
-    }
+   .bulletsAndBars {
+    display: flex;
+    height: 30rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    margin-left: 2.875rem;
+    gap: 3rem;
+   }
 
-    .whyFrontTitle {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        height: 30.5rem;
-        gap: 1.25rem;
-    }
+   .bulletTitles {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    padding: 0;
+    margin: 0;
+    width: 75%;
+    gap: 6.875rem;
+    align-items: flex-start;
+   }
 
-    .whyFront {
-        text-align: center;
-        margin: 0 auto;
-        text-align: center;
-    }
+   .bulletTitles li:nth-child(2) {
+    margin-left: 0;
+   }
 
-    .whyFrontParagraph {
-        text-align: center;
-        margin: 0 auto;
-    }
+   .bulletsAndBars .leftWing {
+    display: none;
+   }
 
-    .mobileBullet {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        gap: 0;
-    }
+   .pricingTitleGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+   }
 
-    .bulletsAndBars  {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 25%;
-        gap: 1.9375rem;
-        margin-right: -2.875rem;
-        margin-left: 2rem;
-    }
+   .pricingGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 87rem;
+    margin: 0 auto;
+    gap: 16.0625rem;
+   }
 
-    .bulletTitles {
-        display: flex;
-        flex-direction: column;
-        gap: 7.375rem;
-        align-items: flex-start;
-        font-size: 1.1rem;
-    }
+   .plan {
+    width: 90%;
+   }
 
-    .leftWing .bar {
-        display: none;
-    }
+   .planHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;;
+   }
+
+   .planHeaderDescription {
+    text-align: center;
+   }
+
+   .featureList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1.875rem;
+   }
+
+   .featureGroupOne, .featureGroupTwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .itemOne, .itemTwo, .itemThree, .itemFour {
+    width: 100%;
+   }
+
+   .hireUsSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 78rem;
+    margin: 0 auto;
+    align-items: center;
+    gap: 5rem;
+   }
+
+   .hireUsLeftPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10rem;
+   }
+
+   .hireUsTop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 6.25rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0;
+   }
+
+   .hireUsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     
-    .pricingTitleGroup {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin: 11.875rem auto;
-        margin-bottom: 3.125rem;
-        text-align: center;
-    }
+   }
 
-    .pricingGroup {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 17.8125rem;
-    }
+   .barWhite {
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+   }
 
-    .plan {
-        display: flex;
-        width: 90%;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: center;
-        gap: 2.5rem;
-    }
+   .goal, .phrase, .hireUs {
+    text-align: center;
+   }
 
-    .planHeader, .planFooter {
-        width: 80%;
-        align-items: center;
-        margin: 0 auto;
-    }
+   .hireUsBottom {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+   }
 
-    .planBar {
-        width: 20.5rem;
-    }
+   .hireUsRightPart {
+    display: flex;
+    width: 100%;
+    height: 50rem;
+    margin: 0 auto;
+    padding: 0;
+   }
 
-    .planHeaderDescription {
-        text-align: justify;
-    }
+   form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 46.625rem;
+    gap: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
 
-    .featureList {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 15.625rem;
-    }
+   }
 
-    .itemOne, .itemTwo, .itemThree, .itemFour {
-        margin: 0 auto;
-        width: 90%;
-    }
+   .fullName {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
 
-    .hireUsSection {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        width: 100%;
-        margin: 0 auto;
-        gap: 0;
-    }
+   #firstName, #lastName, #email {
+    width: 90%;
+   }
 
-    .hireUsLeftPart {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 100%;
-        height: 25.5rem;
-        margin: 0 auto;
-        padding: 0;
-        gap: 0;
-    }
+   .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
 
-    .hireUsTitle {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        padding: 0;
-        align-items: center;
-    }
-    
+   #budget, #country {
+    width: 94%;
+   }
 
-    .barWhite {
-        margin: 0 auto;
-    }
+   textarea {
+    width: 93.5%;
+    height: 8.375rem;
+   }
 
-    .phrase {
-        text-align: center;
-        margin: 1.25rem auto;
-    }
+   .privacy {
+    width: 100%;
+    margin-left: 2rem;
 
-    .hireUsBottom {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-        align-items: center;
-        text-align: center;
-        padding: 0;
-    }
+   }
 
-    .person {
-        text-align: center;
-    }
+   .submit {
+    align-items: center;
+   }
 
-    .personTitle {
-        text-align: center;
-    }
+   .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 2.875rem auto;
+    align-items: center;
+    width: 100%;
+   }
 
-    .hireUsRightPart {
-        display: flex;
-        flex-direction: column;
-        height: 52.625rem;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
+   .footergroupone, .footergrouptwo, .footergroupthree {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+   }
+   
+   .footerLogo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+   }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 46rem;
-        padding: 0;
-        margin: 20px auto;
-        padding: 15px;
-    }
+   .columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
 
-    .caption {
-        margin: 0 auto;
-        text-align: justify;
-    }
+   }
 
-    .fullName {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+   .col1, .col2, .col3, .col4, .col5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+   }
 
-    .formEmail {
-        padding: 0;
-    }
+   .footergroupone {
+    margin-bottom: 1.5rem;
+   }
 
-    #firstName, #lastName, #email {
-        width: 95%;
-        padding-left: 10px;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-right: 0;
-    }
-
-    .row {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        gap: 10px;
-    }
-
-    #budget, #country {
-        width: 99%;
-        padding-left: 10px;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-right: 0;
-    }
-
-    textarea {
-        width: 88.5%;
-    }
-
-    .privacy .second {
-        display: none;
-    }
-    
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-        /* padding-right: 1.875rem;
-        padding-left: 1.875rem; */
-        margin-left: 0.625rem;
-    }
-
-    .footergroupone, .footergrouptwo, .footergroupthree {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-        align-items: center;
-        padding: 0;
-        gap: 0.625rem;
-    }
-
-    .columns {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-        gap: 0;
-    }
-
-    .col1, .col2, .col3, .col4, .col5 {
-        display: flex;
-        flex-direction: column;
-        margin: 1.25rem auto;
-        align-items: center;
-        padding: 0;
-        gap: 1.25rem;
-    }
+   .footergrouptwo, .footergroupthree {
+    gap: 1.5rem;
+   }
 }
